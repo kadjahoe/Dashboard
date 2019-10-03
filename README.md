@@ -62,9 +62,9 @@ It gives the user the option to choose what is considered chronically absent.
     Bulma was used because it is
     lighter than the Bootstrap framework.
 
-    Bulma does not have javascript functionalities. If javascript
-    is needed for certain behaviors
-    it would have to be created separately.
+    Bulma does not come with javascript functionalities.
+    If javascript is needed for certain
+    behaviors it would have to be created separately.
 
     This was good because Angular can
     behave a little tricky with javascript
