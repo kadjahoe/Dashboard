@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+// @import '../node_modules/bulma-accordion/src/sass/index.sass';
+// @import '../node_modules/bulma/bulma.sass';
+//@import '../node_modules/bulma-accordion/src/sass/index.sass';
+.panels-container {
+    padding: 15px;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+}
+
+.accordions-container {
+    width: 100%;
+    .accordion-body-container {
+        overflow: auto;
+    }
+}
