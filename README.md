@@ -3,6 +3,7 @@
 ## Author Information
 
 This project was created by [Katherine Adjahoe](http://katherineadjahoe.com) for an interview test.
+[Demo](https://angular-nccdra.stackblitz.io/)
 
 ## **What this Dashboard App does?**
 
