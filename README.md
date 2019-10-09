@@ -20,7 +20,7 @@ It gives the user the option to choose what is considered chronically absent.
 2. Guidance counselor: Overall students per grade specifically for the counselor selected.
 
 - Using the threshold:
-  The data will adjust accordingly to populate only the students that has an attendance percentage less than or equal to the number choosing as the threshold per grade overall or by counselor.
+  The data will adjust accordingly to populate only the students that has an attendance percentage less than or equal to the number chosen as the threshold per grade overall or by counselor.
 
 ## **Frontend Framework**
 
@@ -34,25 +34,25 @@ It gives the user the option to choose what is considered chronically absent.
     data manipulation.
 
     The ability to separate concerns is
-    the main reason Angular was choosen.
+    the main reason Angular was chosen.
     Each component that makes up the user's
     view can be managed in its only
     environment and still operate under
     the parent umbrella.
 
-    Data can be aggregated in a seperate
+    Data can be aggregated in a separate
     place and service components as needed.
 
     It is very powerful in many ways.
     This is a CSR(Client Side Rendering)
     framework but it has the ability to
-    do SSR(Server Side Rendering) if needed,
+    do SSR(Server Side Rendering) using Angular Universal if needed,
     which is good for SEO.
 
     In this use-case SEO is not important
     because the User Interface is
     considered private and not
-    accesible to the public.
+    accessible to the public.
     The data is only for specific
     users to see and interact with.
 
@@ -80,7 +80,7 @@ It gives the user the option to choose what is considered chronically absent.
 ## _Debounce Functionality:_ from RXJS library
 
     The debounce function delays the
-    processing of the keyup event until
+    processing of the key-up event until
     the user has stopped typing for a predetermined amount of time. This
     prevented the (slider that is used
     to set the threshold for chronically
@@ -94,7 +94,7 @@ It gives the user the option to choose what is considered chronically absent.
     the Observer gets attached to the
     newly created Observable execution.
     This is used on the slider that sets
-    the threshold for the attendace
+    the threshold for the attendance
     percentage filter.
 
 ## _Two Way Binding in Angular:_ ngModel
